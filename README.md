@@ -7,12 +7,12 @@
 ## ALGORITHM: 
 
   1. AES is based on a design principle known as a substitution–permutation.
-  2.  
-  3. AES does not use a Feistel network like DES, it uses variant of Rijndael.
-  4. 
-  5. It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
-  6. 
-  7. AES operates on a 4 × 4 column-major order array of bytes, termed the state
+    
+  2. AES does not use a Feistel network like DES, it uses variant of Rijndael.
+   
+  3. It has a fixed block size of 128 bits, and a key size of 128, 192, or 256 bits.
+   
+  4. AES operates on a 4 × 4 column-major order array of bytes, termed the state
 
 ## PROGRAM: 
 
