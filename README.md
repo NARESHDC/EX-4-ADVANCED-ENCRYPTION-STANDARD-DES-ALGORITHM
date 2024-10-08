@@ -26,21 +26,19 @@ int input_len = strlen(input);
 int key_len = strlen(key);
 
 for (int i = 0; i < input_len; i++) {
-    input[i] = input[i] ^ key[i % key_len]; // XOR encryption
+    input[i] = input[i] ^ key[i % key_len]; 
 }
 }
 
 int main() {
 char url[] = "https://lms2.cse.saveetha.in";
-char key[] = "secretkey"; // Simple key for XOR encryption
+char key[] = "secretkey"; 
 
 printf("Original URL: %s\n", url);
 
-// Encrypt the URL
 xor_encrypt_decrypt(url, key);
 printf("Encrypted URL: %s\n", url);
 
-// Decrypt the URL (since XOR is reversible using the same key)
 xor_encrypt_decrypt(url, key);
 printf("Decrypted URL: %s\n", url);
 
