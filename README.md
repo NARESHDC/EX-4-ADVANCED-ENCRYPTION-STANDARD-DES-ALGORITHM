@@ -31,7 +31,7 @@ for (int i = 0; i < input_len; i++) {
 }
 
 int main() {
-char url[] = "https://github.com/22008686";
+char url[] = "PAVITHRA MURUGAN";
 char key[] = "secretkey"; 
 
 printf("Original URL: %s\n", url);
@@ -47,7 +47,8 @@ return 0;
 ```
 ## OUTPUT:
 
-![Screenshot 2024-10-10 085314](https://github.com/user-attachments/assets/122d7168-de63-4ab4-953e-15a366d5bb64)
+![Screenshot 2024-10-10 091420](https://github.com/user-attachments/assets/76ca4952-bb3a-4f61-a8cc-60da47e491b7)
+
 
 
 ## RESULT: 
